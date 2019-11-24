@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ExperiencesService } from 'src/app/services/experiences.service';
-import { Experience } from 'src/app/services/models/experience.model';
+import { ExperiencesService } from 'src/app/services/candidate-services/experiences.service';
+import { Experience } from 'src/app/services/candidate-services/models/experience.model';
 
 @Component({
   selector: 'app-experiences-page',
