@@ -2,7 +2,7 @@ import { ProfilePageComponent } from './profile-page.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExperiencesPageModule } from '../experiences-page/experiences-page.module';
-import { MatTabsModule} from '@angular/material';
+import { MatTabsModule, MatButtonModule} from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 
@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
         ExperiencesPageModule,
         MatTabsModule,
         FlexLayoutModule,
-        FormsModule
+        FormsModule,
+        MatButtonModule
     ],
     exports: [ProfilePageComponent]
   })
