@@ -13,6 +13,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { loginModule } from './core/user-core/login/login.module';
+import { CoreModule } from './core/core.module';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    loginModule
+
   ],
   providers: [ExperiencesService],
   bootstrap: [AppComponent]
