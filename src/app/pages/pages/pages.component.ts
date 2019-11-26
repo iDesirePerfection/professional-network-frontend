@@ -18,4 +18,9 @@ export class PagesComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  testvar:string="hello world";
+  openSideNav=false;
+
+ 
+
 }

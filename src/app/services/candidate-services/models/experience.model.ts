@@ -1,5 +1,5 @@
 export interface Experience {
-    experienceId: number;
+    id: number;
     designation: string;
     type: string;
     startDate: Date;
