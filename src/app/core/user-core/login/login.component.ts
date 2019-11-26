@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
-  us:Usr=new Usr();
+  public us:User={username:'',password:''};
   login(form) {
     console.log(form);
     this.userService.login('fahd','fahd123').subscribe(u=>console.log(u));
